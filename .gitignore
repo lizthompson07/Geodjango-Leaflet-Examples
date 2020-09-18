@@ -37,3 +37,9 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+# PyCharm settings and maps #
+#############################
+/.IDEA/*
+.idea/*
+my_settings.py
