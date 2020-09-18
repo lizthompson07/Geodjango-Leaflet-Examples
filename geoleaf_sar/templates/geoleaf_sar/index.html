@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nearby Species</title>
+</head>
+<body>
+    <h1>Nearby Species</h1>
+    {% if speciess %}
+    <ul>
+    {% for species in speciess %}
+        <li>
+        {{ species.name }}: {{ species.distance }}
+        </li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+</body>
+</html>
